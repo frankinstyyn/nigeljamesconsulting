@@ -19,6 +19,3 @@ export class MapContainer extends Component {
     );
   }
 }
-
-export default GoogleApiWrapper({
-})(MapContainer);

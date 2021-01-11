@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
-const mapStyles = {
-  width: '100%',
-  height: '100%'
-};
-
-const location = {
-  address: '1600 Amphitheatre Parkway, Mountain View, california.'
-}
-
-export class MapContainer extends Component {
+export class Maps extends Component {
   render() {
     return (
         <div>
@@ -19,6 +9,3 @@ export class MapContainer extends Component {
     );
   }
 }
-
-export default GoogleApiWrapper({
-})(MapContainer);

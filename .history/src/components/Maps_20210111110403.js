@@ -20,5 +20,5 @@ export class MapContainer extends Component {
   }
 }
 
-export default GoogleApiWrapper({
+export default ({
 })(MapContainer);

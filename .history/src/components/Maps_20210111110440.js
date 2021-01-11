@@ -10,7 +10,7 @@ const location = {
   address: '1600 Amphitheatre Parkway, Mountain View, california.'
 }
 
-export class MapContainer extends Component {
+export class Maps extends Component {
   render() {
     return (
         <div>
@@ -20,5 +20,5 @@ export class MapContainer extends Component {
   }
 }
 
-export default GoogleApiWrapper({
-})(MapContainer);
+// export default ({
+// })(MapContainer);
