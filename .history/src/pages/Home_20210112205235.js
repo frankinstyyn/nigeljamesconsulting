@@ -10,7 +10,7 @@ export default function Home() {
     <>
     <Hero hero="defaultHero" >
       <Banner title="Nigel James Consulting" subtitle="Information Made Simple">
-        <Link to="/nigelservices" className="btn-primary">
+        <Link to="/lesson" className="btn-primary">
           Services
       </Link>
       </Banner>
