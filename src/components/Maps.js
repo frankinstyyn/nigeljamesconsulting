@@ -21,19 +21,4 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyAxn-Y1QfWBwdg4q6J7N10ihenW_uRcFIE'
 })(MapContainer);
-
-
-    //   <Map
-    //     google={this.props.google}
-    //     style={mapStyles}
-    //     zoom={15}
-    //     initialCenter={{
-    //         lat: 52.913697,
-    //         lng: -1.390196
-    //         }}
-    //     >
-    //     <InfoWindow />
-    //     <Marker />
-    //     </Map>

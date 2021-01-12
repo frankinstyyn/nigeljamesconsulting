@@ -263,12 +263,10 @@ h6 {
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
   grid-row-gap: 1.5rem;
   grid-column-gap: 50px;
 }
-
 .service span {
   display: inline-block;
   color: var(--primaryColor);
@@ -293,7 +291,7 @@ h6 {
 @media screen and (min-width: 320px) {
   .services-center {
     width: 95vw;
-    max-width: 800px;
+    max-width: 1170px;
   }
 }
 
