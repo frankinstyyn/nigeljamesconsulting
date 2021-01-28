@@ -15,8 +15,8 @@ export default function Home() {
       </Link>
       </Banner>
       </Hero> */}
-      {/* <Banner title="Consultancy Services">
-      </Banner> */}
+      <Banner title="Consultancy Services">
+      </Banner>
       <MainServices />
       <Footer />
       </>

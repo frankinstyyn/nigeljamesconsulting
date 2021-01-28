@@ -8,15 +8,13 @@ import Footer from "../components/Footer"
 export default function Home() {
   return (
     <>
-    {/* <Hero hero="servicesHero">
+    <Hero hero="servicesHero">
       <Banner title="Consultancy Services" subtitle="Improving your business strategy, professionally">
         <Link to="/nigelservices" className="btn-primary">
           Learn More
       </Link>
       </Banner>
-      </Hero> */}
-      {/* <Banner title="Consultancy Services">
-      </Banner> */}
+      </Hero>
       <MainServices />
       <Footer />
       </>

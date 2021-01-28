@@ -36,9 +36,9 @@ export default class Services extends Component {
         return (
             <>
             <section className="services">
-                    <Title title="services" />
-                    <h4>Business analytics processes defined and designed to ensure maximum visibility of all areas of your business</h4>
+                <Title title="services" />
                     <div className="services-center">
+                        <div>Business analytics processes defined and designed to ensure maximum visibility of all areas of your business</div>
                     {this.state.services.map((item, index) => {
                         return (
                             <article key={index} className="service">

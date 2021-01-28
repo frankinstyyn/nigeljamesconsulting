@@ -49,7 +49,7 @@ const Footer = () => {
                             <div class="footer-social-icon">
                                 <span>Social Links</span>
                                 <a href="https://www.linkedin.com/company/21602721/" className="linkedin-bg"><FaLinkedin /></a>
-                                <a href="mailto:nigel@nigeljamesconsulting.co.uk" className="email-bg"><FaEnvelope /></a>
+                                <a href="nigel@nigeljamesconsulting.co.uk" className="email-bg"><FaEnvelope /></a>
                             </div>
                         </div>
                     </div>

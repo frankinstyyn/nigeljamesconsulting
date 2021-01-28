@@ -15,8 +15,11 @@ export default function Home() {
       </Link>
       </Banner>
       </Hero> */}
-      {/* <Banner title="Consultancy Services">
-      </Banner> */}
+      <Banner title="Consultancy Services" subtitle="Improving your business strategy, professionally">
+        <Link to="/nigelservices" className="btn-primary">
+          Learn More
+      </Link>
+      </Banner>
       <MainServices />
       <Footer />
       </>
