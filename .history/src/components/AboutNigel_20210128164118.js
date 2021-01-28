@@ -7,7 +7,9 @@ export class AboutNigel extends Component {
         return (
             <div className="row">
                 <div className="col-sm-6">
-                        <img className="workImage" src={professional} alt=""></img>
+                    <div>
+                        <img className="nigelImg" src={professional} alt=""></img>
+                        </div>
                 </div>
                 <div className="col-sm-6">
                     <div className="aboutContent">

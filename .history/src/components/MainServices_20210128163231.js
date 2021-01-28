@@ -101,7 +101,7 @@ export class MainServices extends Component {
                                     <h3 class="title"><span>Audit & Improvement</span></h3>
                                     <p class="description">- Independent analysis of stock audit results to offer advice on key areas of loss and prioritisation of targets</p>
                                     <p class="description">- Omni-channel distribution process design</p>
-                                    <p class="description">- Mystery shoplifting - testing your guards and store staff vigilance</p>
+                                    <p class="description">- Mystery shoplifting - testing your guards or store staff vigilance</p>
                 </div>
             </div>
         </div>

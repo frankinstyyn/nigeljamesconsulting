@@ -57,19 +57,20 @@ export default class NewNav extends Component {
     }
     render() {
         return <div className="myContainer">
-            <Navbar collapseOnSelect id="navbar" className="newNav" expand="lg">
+            <Navbar id="navbar" className="newNav" expand="lg">
             <Navbar.Brand href="/#toTop"><img id="logo" src={logo} alt="Nigel James Consulting Logo"/></Navbar.Brand>
             <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                            <Link
+                        <Link
                             to="/"
                             spy={true}
                             smooth={true}
                         >
-                            
-                                <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
-                            </Link>
+                            <Navbar.Collapse>
+                                <Nav.Link href="/">Home</Nav.Link>
+                                </Navbar.Collapse>
+                        </Link>
                         <Link
                             activeClass="active"
                             to="/nigelservices"

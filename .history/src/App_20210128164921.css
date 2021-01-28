@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
 }
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
 :root {
   --primaryColor: #d03737;
   --mainWhite: #fff;
@@ -440,7 +433,12 @@ h6 {
   padding-top: 2%;
   margin-bottom: 10%;
 }
-
+.nigelImg {
+  /* border: solid 3px var(--primaryColor); */
+  height: 15rem;
+  object-fit: cover;
+  margin: 25%;
+}
 .aboutContent {
   background-color: #0c124870;
   padding: 10% 20%;
@@ -567,9 +565,8 @@ h6 {
   background: var(--mainBlue);
   margin: 1.5rem auto 0;
 }
-.workImage {
-  width: 90%;
-  margin-left: 15%;
+#nigelImage {
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   #servicesContainer {

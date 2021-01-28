@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FaDrawPolygon, FaClipboardList } from 'react-icons/fa'
+import { FaDrawPolygon } from 'react-icons/fa'
 import { FiDatabase } from 'react-icons/fi'
 import { TiFlowSwitch } from 'react-icons/ti'
 import { IoMdAnalytics } from 'react-icons/io'
@@ -96,12 +96,12 @@ export class MainServices extends Component {
             <div class="serviceBox">
                 <div class="service-content">
                     <div class="service-icon">
-                        <span><FaClipboardList /></span>
+                        <span><FaDrawPolygon /></span>
                     </div>
-                                    <h3 class="title"><span>Audit & Improvement</span></h3>
-                                    <p class="description">- Independent analysis of stock audit results to offer advice on key areas of loss and prioritisation of targets</p>
-                                    <p class="description">- Omni-channel distribution process design</p>
-                                    <p class="description">- Mystery shoplifting - testing your guards and store staff vigilance</p>
+                                    <h3 class="title"><span>Design Modelling</span></h3>
+                                    <p class="description">- Dashboard Design</p>
+                                    <p class="description">- Sales forecasting</p>
+                                    <p class="description">- Price elasticity modelling</p>
                 </div>
             </div>
         </div>

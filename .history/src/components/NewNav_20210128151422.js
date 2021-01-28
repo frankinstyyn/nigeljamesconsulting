@@ -57,24 +57,28 @@ export default class NewNav extends Component {
     }
     render() {
         return <div className="myContainer">
-            <Navbar collapseOnSelect id="navbar" className="newNav" expand="lg">
+            <Navbar id="navbar" className="newNav" expand="lg">
             <Navbar.Brand href="/#toTop"><img id="logo" src={logo} alt="Nigel James Consulting Logo"/></Navbar.Brand>
-            <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle onClick={this.handleToggle} duration={500} className="custom-toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                            <Link
+                        <Link
                             to="/"
                             spy={true}
                             smooth={true}
+                            // offset={-200}
+                            // duration={5}
                         >
-                            
-                                <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
-                            </Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                        </Link>
                         <Link
                             activeClass="active"
                             to="/nigelservices"
                             spy={true}
                             smooth={true}
+                            onClick={this.handleToggle}
+                            // offset={-70}
+                            // duration={5}
                         >
                             <Nav.Link id="nav-links" href="/nigelservices">Services</Nav.Link>
                         </Link>

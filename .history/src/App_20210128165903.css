@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
 }
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
 :root {
   --primaryColor: #d03737;
   --mainWhite: #fff;
@@ -567,9 +560,14 @@ h6 {
   background: var(--mainBlue);
   margin: 1.5rem auto 0;
 }
-.workImage {
-  width: 90%;
-  margin-left: 15%;
+#nigelImageContainer {
+  outline: 1px solid rgb(255, 0, 0);
+  color: #fff;
+  overflow: auto;
+}
+#nigelImageContainer img {
+  float: right;
+  height: auto;
 }
 @media screen and (min-width: 768px) {
   #servicesContainer {

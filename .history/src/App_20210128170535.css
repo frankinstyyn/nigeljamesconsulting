@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
 }
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
 :root {
   --primaryColor: #d03737;
   --mainWhite: #fff;

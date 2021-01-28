@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
 }
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
 :root {
   --primaryColor: #d03737;
   --mainWhite: #fff;
@@ -568,8 +561,9 @@ h6 {
   margin: 1.5rem auto 0;
 }
 .workImage {
-  width: 90%;
-  margin-left: 15%;
+  width: 100%;
+  border: 2px solid var(--primaryColor);
+  margin: 2% 0;
 }
 @media screen and (min-width: 768px) {
   #servicesContainer {
