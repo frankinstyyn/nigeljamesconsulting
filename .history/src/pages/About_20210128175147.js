@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero"
 import Banner from "../components/Banner";
+import { Link } from "react-router-dom";
 import AboutNigel from "../components/AboutNigel"
 import Footer from "../components/Footer"
 
