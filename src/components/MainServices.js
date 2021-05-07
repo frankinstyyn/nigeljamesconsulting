@@ -10,7 +10,7 @@ export class MainServices extends Component {
         return (
             <div class="mainServices">
                 <div className="servicesBanner">
-                    <h1>Consltancy Services</h1>
+                    <h1>Consultancy Services</h1>
                     <div></div>
                 </div>
                 <div id="servicesContainer" class="container">

@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home";
 import NigelServices from "./pages/NigelServices";
-import SingleRoom from "./pages/SingleRoom";
+import Golf from "./pages/Golf";
 import Error from "./pages/Error";
 import About from "./pages/About"
 
@@ -17,7 +17,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/nigelservices" component={NigelServices} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/nigelservices/:slug" component={SingleRoom} />
+        <Route exact path="/golf" component={Golf} />
+        <Route exact path="/nigelservices/:slug" component={Error} />
         <Route component={Error} />
       </Switch>
     </>

@@ -17,8 +17,8 @@ export default class Services extends Component {
             },
             {
                 icon: <MdSecurity />,
-                title: "IT Security",
-                info: "Proactive security strategy to improve online safety"
+                title: "Business Consultancy",
+                info: "Security and loss prevention to protect all areas of your business"
             },
             {
                 icon: <TiDeviceDesktop />,

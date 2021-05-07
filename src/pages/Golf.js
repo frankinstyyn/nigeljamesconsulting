@@ -1,11 +1,11 @@
 import React from "react";
-import MainServices from "../components/MainServices"; 
+import GolfServices from "../components/GolfServices"; 
 import Footer from "../components/Footer"
 
 export default function Home() {
   return (
     <>
-      <MainServices />
+      <GolfServices />
       <Footer />
       </>
   );

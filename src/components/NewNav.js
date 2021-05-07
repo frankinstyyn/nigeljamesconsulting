@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../images/njcLogo.svg";
+import logo from "../images/njcLogo.png";
 import { Nav, Navbar } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
@@ -82,10 +82,15 @@ export default class NewNav extends Component {
                             to="/about"
                             spy={true}
                             smooth={true}
-                            // offset={-200}
-                            // duration={5}
                         >
                             <Nav.Link href="/about">About</Nav.Link>
+                            </Link>
+                    <Link
+                            to="/golf"
+                            spy={true}
+                            smooth={true}
+                        >
+                            <Nav.Link href="/golf">Golf</Nav.Link>
                             </Link>
                 </Nav>
 

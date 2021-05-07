@@ -453,6 +453,13 @@ h6 {
 .mainServices .row {
   padding: 5% 0;
 }
+.golfServices {
+  background-color: #cfcfcf;
+  padding-top: 0.5%;
+}
+.golfServices .row {
+  padding: 0;
+}
 
 .descriptionUnderline {
   text-decoration: line-through solid;
@@ -544,6 +551,146 @@ h6 {
   font-size: 1.5rem !important;
   padding: 1% 5px 1%;
 }
+.container .card {
+  position: relative;
+  border-radius: 10px;
+  background: transparent;
+  border: solid 1px transparent;
+}
+
+.container .card .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.container .card .icon1 {
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.container .card .icon2 {
+  background: #2d8cff;
+}
+
+.container .card .icon3 {
+  background: #14b81c;
+}
+
+
+.container .card .icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 150px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  margin: 0 auto;
+}
+
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+.golfRow {
+  width: 100%;
+  display: flex;
+}
+.golf-btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainWhite);
+  background: var(--primaryColor) !important;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor) !important;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px auto;
+}
+.golf-btn-primary:hover {
+  background-color: var(--mainBlue) !important;
+  color: var(--primaryColor);
+}
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+  max-width: 100px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+  transform: translateY(-50px);
+  margin: 0 auto;
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+} 
+
 .servicesBanner {
   display: inline-block;
   background: #cfcfcf;
@@ -554,6 +701,9 @@ h6 {
   letter-spacing: var(--mainSpacing);
   width: 100%;
   margin-top: 2rem;
+}
+.golfBanner h1 {
+  padding-top: 5rem !important;
 }
 .servicesBanner h1 {
   font-size: 3rem;
