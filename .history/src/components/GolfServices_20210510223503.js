@@ -43,7 +43,7 @@ export class GolfServices extends Component {
             <div class="face face1">
                 <div class="content">
                     <div class="icon2 icon">
-                        <i class="fa fa-twitter-square" aria-hidden="true"><img src={zoom} alt="Zoom logo"></img></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"><MdScreenShare /></i>
                     </div>
                 </div>
             </div>

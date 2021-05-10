@@ -154,9 +154,15 @@ h6 {
   padding: 0.5rem 1rem;
   /* background-color: var(--primaryColor); */
 }
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  background: grey;
+}
 #navbar {
   overflow: hidden;
-  padding: 20px 10%;
+  /* padding: 20px 10%; */
   transition: 0.4s;
   position: fixed;
   display: flex;
@@ -597,12 +603,12 @@ h6 {
   background: #14b81c;
 }
 
-.container .card .icon .fa img {
+.container .card .icon .fa {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px;
+  font-size: 80px;
   transition: 0.7s;
   color: #fff;
 }
@@ -769,27 +775,6 @@ i {
     width: 90%;
     margin-bottom: 15px;
   }
-}
-@media only screen and (max-width: 992px) {
-  #basic-navbar-nav {
-    background: #b2b2b2f2;
-  }
-  #navbar {
-    padding: 20px 0%;
-  }
-  #logo {
-    margin-left: 20px;
-    margin-bottom: 15px;
-  }
-  .navbar-light .navbar-toggler {
-    margin-right: 20px;
-  }
-  #basic-navbar-nav a {
-    text-decoration: none;
-    margin-left: 20px;
-  }
-}
-@media only screen and (max-width: 450px) {
 }
 span svg {
   font-size: 2.5rem;
