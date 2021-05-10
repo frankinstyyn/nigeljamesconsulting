@@ -60,7 +60,7 @@ const Footer = () => {
                             </div>
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/nigelservices">Services</a></li>
+                                <li><a href="nigelservices">Services</a></li>
                                 <li><a href="/golf">Golf Lessons</a></li>
                                 <li><a href="mailto:nigel@nigeljamesconsulting.co.uk">Contact</a></li>
                             </ul>
