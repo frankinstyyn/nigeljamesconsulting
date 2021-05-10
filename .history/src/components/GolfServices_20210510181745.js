@@ -74,12 +74,10 @@ export class GolfServices extends Component {
         <div className="golfRow">
             <a class="golf-btn-primary" href="tel:07590647481">Get In Touch</a>
                         </div>
-                        <div class="">
-                            <div class="nigelImages">
+                            <div class="col-sm-12 col-md-4">
                                <img src={nigel1} alt="Nigel golf stance"></img>
                                <img src={nigel2} alt="Nigel golf banner"></img>
                                <img src={nigel3} alt="Nigel golf finish position"></img>
-                            </div>
                             </div>
     </div>
                 </div>

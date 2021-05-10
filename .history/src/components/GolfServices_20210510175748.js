@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import { GrInstagram } from 'react-icons/gr'
 import { MdGolfCourse, MdScreenShare } from 'react-icons/md'
-import nigel1 from "../images/nigel1.JPEG"
-import nigel2 from "../images/nigel2.JPEG"
-import nigel3 from "../images/nigel3.JPEG"
-
 
 export class GolfServices extends Component {
     render() {
@@ -73,14 +69,7 @@ export class GolfServices extends Component {
         </div>
         <div className="golfRow">
             <a class="golf-btn-primary" href="tel:07590647481">Get In Touch</a>
-                        </div>
-                        <div class="">
-                            <div class="nigelImages">
-                               <img src={nigel1} alt="Nigel golf stance"></img>
-                               <img src={nigel2} alt="Nigel golf banner"></img>
-                               <img src={nigel3} alt="Nigel golf finish position"></img>
-                            </div>
-                            </div>
+        </div>
     </div>
                 </div>
                 </div>

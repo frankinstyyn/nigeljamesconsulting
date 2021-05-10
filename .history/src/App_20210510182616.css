@@ -647,7 +647,6 @@ i {
 .golfRow {
   width: 100%;
   display: flex;
-  margin-bottom: 4%;
 }
 .golf-btn-primary {
   display: inline-block;

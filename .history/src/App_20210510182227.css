@@ -647,7 +647,6 @@ i {
 .golfRow {
   width: 100%;
   display: flex;
-  margin-bottom: 4%;
 }
 .golf-btn-primary {
   display: inline-block;
@@ -756,19 +755,6 @@ i {
 @media only screen and (max-width: 990px) {
   .serviceBox {
     margin: 0 0 30px;
-  }
-  .nigelImages {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  .nigelImages img {
-    width: 90%;
-    margin-bottom: 15px;
   }
 }
 span svg {
