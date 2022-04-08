@@ -666,6 +666,9 @@ i {
   background-color: var(--mainBlue) !important;
   color: var(--primaryColor);
 }
+.bookButton {
+  padding: 1rem 2rem;
+}
 .container .card:hover .face.face1 .content {
   opacity: 1;
 }

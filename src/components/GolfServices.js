@@ -73,6 +73,9 @@ export class GolfServices extends Component {
         </div>
         </div>
         <div className="golfRow">
+            <a class="golf-btn-primary bookButton" target="_blank" href="https://lessonpro.co.uk/nigel-bratton">Book A Lesson Now</a>
+                        </div>
+        <div className="golfRow">
             <a class="golf-btn-primary" href="tel:07590647481">Get In Touch</a>
                         </div>
                         <div class="">
