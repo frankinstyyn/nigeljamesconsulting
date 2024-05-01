@@ -17,7 +17,7 @@ export class GolfServices extends Component {
                 </div>
   <div class="container">
                     <div className="servicesH3">
-                        <h3>After recently becoming a PGA pro, I'm passionate about providing quality, structured lessons. To book a lesson, get in touch now</h3>
+                        <h3>Fully qualified PGA Professional golf coach that provides high quality, structured lessons for any golfer from beginner to advanced amateur. To book a lesson, get in touch now</h3>
                     </div>
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4">
