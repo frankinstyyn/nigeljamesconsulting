@@ -6,7 +6,7 @@ import nigel3 from "../images/nigel3.JPEG"
 import insta from "../images/insta.png"
 import zoom from "../images/zoom.png"
 import pgaLogo from "../images/PGA-golf-logo.jpg"
-
+ 
 
 export class GolfServices extends Component {
     render() {
