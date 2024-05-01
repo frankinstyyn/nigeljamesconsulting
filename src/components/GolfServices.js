@@ -5,6 +5,7 @@ import nigel2 from "../images/nigel2.JPEG"
 import nigel3 from "../images/nigel3.JPEG"
 import insta from "../images/insta.png"
 import zoom from "../images/zoom.png"
+import pgaLogo from "../images/PGA-golf-logo.jpg"
 
 
 export class GolfServices extends Component {
@@ -18,6 +19,9 @@ export class GolfServices extends Component {
   <div class="container">
                     <div className="servicesH3">
                         <h3>Fully qualified PGA Professional golf coach that provides high quality, structured lessons for any golfer from beginner to advanced amateur. To book a lesson, get in touch now</h3>
+                    </div>
+            <div className='pgaLogo'>
+                        <img src={pgaLogo} />
                     </div>
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4">
