@@ -168,7 +168,11 @@ h6 {
 .myContainer {
   width: 80%;
 }
-
+.pgaLogo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
 #basic-navbar-nav a {
   text-decoration: none;
 }
